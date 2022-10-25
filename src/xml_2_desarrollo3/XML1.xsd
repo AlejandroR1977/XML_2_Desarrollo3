@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <!--
+    Interna
+    -->
+    <!DOCTYPE nota [
+    <!ELEMENT nota (para*, de, titulo, contenido)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+]>
+<nota>
+    <para>Pedro</para>
+    <de>Laura</de>
+    <titulo>Recordatorio</titulo>
+    <contenido>A las 7:00 en la puerta del teatro</contenido>
+</nota>
+    <!--
+    Externa
+    -->
+<!DOCTYPE nota SYSTEM "solucionexterna.dtd">
+<nota>
+    <para>Pedro</para>
+    <de>Laura</de>
+    <titulo>Recordatorio</titulo>
+    <contenido>A las 7:00 en la puerta del teatro</contenido>
+</nota>
+<!ELEMENT nota (para*, de, titulo, contenido)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+</xs:schema>
