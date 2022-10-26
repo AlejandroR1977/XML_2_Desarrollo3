@@ -6,30 +6,30 @@
     <!--
     Interna
     -->
-    <!DOCTYPE nota [
+    <!DOCTYPE documento1 [
     <!ELEMENT nota (para*, de, titulo, contenido)>
     <!ELEMENT para (#PCDATA)>
     <!ELEMENT de (#PCDATA)>
     <!ELEMENT titulo (#PCDATA)>
     <!ELEMENT contenido (#PCDATA)>
 ]>
-<nota>
+<documento1>
     <para>Pedro</para>
     <de>Laura</de>
     <titulo>Recordatorio</titulo>
     <contenido>A las 7:00 en la puerta del teatro</contenido>
-</nota>
+</documento1>
     <!--
     Externa
     -->
 <!DOCTYPE nota SYSTEM "solucionexterna.dtd">
-<nota>
+<documento1>
     <para>Pedro</para>
     <de>Laura</de>
     <titulo>Recordatorio</titulo>
     <contenido>A las 7:00 en la puerta del teatro</contenido>
-</nota>
-<!ELEMENT nota (para*, de, titulo, contenido)>
+</documento1>
+<!ELEMENT documento1 (para*, de, titulo, contenido)>
 <!ELEMENT para (#PCDATA)>
 <!ELEMENT de (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
