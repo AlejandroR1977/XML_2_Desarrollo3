@@ -13,7 +13,7 @@
     <!ELEMENT dni (#PCDATA)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT titulacion (#PCDATA)>
-    <!ELEMENT curso_academico (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
     <!ELEMENT domicilios (domicilio+)>
     <!ATTLIST domicilio tipo (familiar|habitual) #REQUIRED>
     <!ELEMENT domicilio (nombre)>
@@ -25,7 +25,7 @@
     <dni>99223366M</dni>
     <nombre>Juan Pardo Martín</nombre>
     <titulacion>Ingeniería Informática</titulacion>
-    <curso_academico>1997/1998</curso_academico>
+    <curso>1997/1998</curso>
     <domicilios>
       <domicilio tipo="familiar">
         <nombre>C/ Principal nº1</nombre>
@@ -50,7 +50,7 @@
     <dni>99223366M</dni>
     <nombre>Juan Pardo Martín</nombre>
     <titulacion>Ingeniería Informática</titulacion>
-    <curso_academico>1997/1998</curso_academico>
+    <curso>1997/1998</curso>
     <domicilios>
       <domicilio tipo="familiar">
         <nombre>C/ Principal nº1</nombre>
@@ -69,7 +69,7 @@
 <!ELEMENT dni (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT titulacion (#PCDATA)>
-<!ELEMENT curso_academico (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
 <!ELEMENT domicilios (domicilio+)>
 <!ATTLIST domicilio tipo (familiar|habitual) #REQUIRED>
 <!ELEMENT domicilio (nombre)>
