@@ -6,8 +6,8 @@
     <!--
     Interna
     -->
-    <!DOCTYPE ediciones_aranda [
-    <!ELEMENT ediciones_aranda (cabecera, tabla)>
+    <!DOCTYPE editorial [
+    <!ELEMENT editorial (cabecera, tabla)>
     <!ELEMENT cabecera (titulo, contenido, descripcion, fecha)>
     <!ELEMENT titulo (#PCDATA)>
     <!ELEMENT contenido (#PCDATA)>
@@ -23,7 +23,7 @@
     <!ELEMENT trimestre (#PCDATA)>
     <!ELEMENT libros_vendidos (#PCDATA)>
 ]>
-<ediciones_aranda>
+<editorial>
   <cabecera>
     <titulo>Ediciones Aranda</titulo>
     <contenido>Informe regional del ventas</contenido>
@@ -70,13 +70,13 @@
     <trimestre>Trimestre</trimestre>
     <libros_vendidos>Libros vendidos</libros_vendidos>
   </tabla>
-</ediciones_aranda>
+</editorial>
     
     <!--
     Externa
     -->
 <!DOCTYPE ediciones_aranda SYSTEM "solucionexterna.dtd">
-<ediciones_aranda>
+<editorial>
   <cabecera>
     <titulo>Ediciones Aranda</titulo>
     <contenido>Informe regional de ventas</contenido>
@@ -123,8 +123,8 @@
     <trimestre>Trimestre</trimestre>
     <libros_vendidos>Libros vendidos</libros_vendidos>
   </tabla>
-</ediciones_aranda>
-<!ELEMENT ediciones_aranda (cabecera, tabla)>
+</editorial>
+<!ELEMENT editorial (cabecera, tabla)>
 <!ELEMENT cabecera (titulo, contenido, descripcion, fecha)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
